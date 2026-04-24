@@ -1,0 +1,13 @@
+assets/
+     images-->contains all images
+            /app_img.dart-->contains image url from cloudinary
+lib/
+  data-->contains models and data sources
+  domain-->contains entities,use cases,constants
+        /constants-->contains static values which will be used across the app
+                  /colors.dart-->app colors
+                  
+  repository-->contains UI
+           /widgets-->to build common widgets
+                   /uihelper.dart-->ui related stuff
+           
